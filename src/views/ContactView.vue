@@ -1,6 +1,5 @@
 <template>
   <div class="contact">
-    <h1>Contact Info</h1>
     <table>
         <tr>
             <th>Activity</th>
@@ -17,13 +16,13 @@
         <tr>
             <td>Wedding Cakes</td>
             <td>Nils</td>
-            <td>+41754126206</td>
+            <td><b>+41754126206</b></td>
             <td></td>
         </tr>
         <tr>
             <td>Drink delivery</td>
             <td>Portner Getränke</td>
-            <td>+41318080010</td>
+            <td><b>+41318080010</b></td>
             <td><a href="https://portnerag.ch/">https://portnerag.ch/</a></td>
         </tr>
         <tr>
@@ -35,7 +34,7 @@
         <tr>
             <td>DJ</td>
             <td>Yvan</td>
-            <td><a href="yvan@swissdj.ch">yvan@swissdj.ch</a> / +41791998733</td>
+            <td><a href="yvan@swissdj.ch">yvan@swissdj.ch</a> / <b>+41791998733</b></td>
             <td><a href="https://www.swissdj.ch/dj-yvan/">https://www.swissdj.ch/dj-yvan/</a></td>
         </tr>
         <tr>
@@ -47,7 +46,7 @@
         <tr>
             <td>Blütenreich</td>
             <td>Andrea Moya</td>
-            <td><a href="Andrea.Moya@thun.ch">Andrea.Moya@thun.ch</a> / 41795071573</td>
+            <td><a href="Andrea.Moya@thun.ch">Andrea.Moya@thun.ch</a> / <b>+41795071573</b></td>
             <td><a href="https://www.bluetenreich.ch/de/">https://www.bluetenreich.ch/de/</a></td>
         </tr>
         <tr>
@@ -69,11 +68,10 @@
 <style lang="scss" scoped>
 .contact {
     overflow-x: auto;
+    max-width: 80%;
     padding: 20px;
-    h1 {
-        display: block;
-        margin: 0 auto;
-    }
+    margin: auto;
+
     table {
         border-collapse: collapse;
         width: 70%;
