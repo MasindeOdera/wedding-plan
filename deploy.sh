@@ -10,5 +10,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:masindeodera/wedding-plan.git master:gh-pages
+git push -f git@github.com:MasindeOdera/wedding-plan.git master:gh-pages
 cd -
