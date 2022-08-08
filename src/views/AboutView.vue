@@ -59,7 +59,7 @@
   <div class="container left">
     <div class="content">
       <p>Kollekte Ukraine Hilfe/ Collection Ukraine help</p>
-      <p>Mitteilungen ((durch Trauzeugen)) / Messages() from Bridal Party)</p>
+      <p>Mitteilungen (durch Trauzeugen) / Messages (from Bridal Party)</p>
       <p>Segen / Blessings</p>
       <p>Lied / Song: Gölä – Keni Träne meh</p>
     </div>
