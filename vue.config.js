@@ -4,6 +4,9 @@ module.exports = defineConfig({
   publicPath: '/wedding-plan/',
 
   pwa: {
-    name: 'Wedding-plan'
+    msTileColor: '#F8F7F7',
+    manifestOptions: {
+      background_color: '#F8F7F7'
+    }
   }
 })
