@@ -44,8 +44,9 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .menu {
+  margin-bottom: 20px;
   .course::after {
     content: "";
     border-bottom: 1px solid grey;
