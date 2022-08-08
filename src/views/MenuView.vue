@@ -63,7 +63,6 @@
       margin: 10px auto;
       padding: 2px;
       p {
-      width: 70%;
       text-align: center;
       margin: auto;
       }
