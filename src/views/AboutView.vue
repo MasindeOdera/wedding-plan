@@ -4,38 +4,69 @@
     <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>Einzug / Entrance</h2>
+      <p>Lied / Musik: Christina Perri – A Thousand Years</p>
+      <p>Song / Music: Christina Perri – A Thousand Years</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <p>Begrüssung / Greeting</p>
+      <p>Gebet / Prayer</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>Lied / Song</h2>
+      <p>Hillsong – Lord I Give You My Heart</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <p>Lesung / Reading</p>
+      <p>Predigt / Sermon</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>Lied / Song</h2>
+      <p>Peter Gabriel – The Book of Love</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2007</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>Trauakt / Act of Marriage</h2>
+      <p>Einleitung / Introduction</p>
+      <p>Trauversprechen / Wedding vows</p>
+      <p>Frage des Pfr. / Questions from the Father</p>
+      <p>Ringübergabe / Exchange Rings</p>
+      <p>Segen - Spruch / Blessing - Speach</p>
+      <p>Kuss / Kiss</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Lied / Song</h2>
+      <p>Elton John – Your Song</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <p>Fürbittegebet / Intercession Prayer</p>
+      <p>Unser Vater / Our Father</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <p>Kollekte Ukraine Hilfe/ Collection Ukraine help</p>
+      <p>Mitteilungen ((durch Trauzeugen)) / Messages() from Bridal Party)</p>
+      <p>Segen / Blessings</p>
+      <p>Lied / Song: Gölä – Keni Träne meh</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Auszug / Exit</h2>
     </div>
   </div>
 </div>
@@ -47,17 +78,14 @@
   box-sizing: border-box;
 }
 .ceremony {
-  // background-color: #474e5d;
-  // box-sizing: border-box;
-  /* The actual timeline (the vertical ruler) */
+//The actual timeline (the vertical ruler)
 .timeline {
   position: relative;
   max-width: 900px;
-  // max-width: 1200px;
   margin: 0 auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+// The actual timeline (the vertical ruler)
 .timeline::after {
   content: '';
   position: absolute;
@@ -69,7 +97,7 @@
   margin-left: -3px;
 }
 
-/* Container around content */
+// Container around content
 .container {
   padding: 10px 40px;
   position: relative;
@@ -77,7 +105,7 @@
   width: 50%;
 }
 
-/* The circles on the timeline */
+// The circles on the timeline
 .container::after {
   content: '';
   position: absolute;
@@ -91,17 +119,17 @@
   z-index: 1;
 }
 
-/* Place the container to the left */
+// Place the container to the left
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+// Place the container to the right
 .right {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+// Add arrows to the left container (pointing right)
 .left::before {
   content: " ";
   height: 0;
@@ -115,7 +143,7 @@
   border-color: transparent transparent transparent #42b983;
 }
 
-/* Add arrows to the right container (pointing left) */
+// Add arrows to the right container (pointing left)
 .right::before {
   content: " ";
   height: 0;
@@ -129,12 +157,12 @@
   border-color: transparent #42b983 transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
+// Fix the circle for containers on the right side
 .right::after {
   left: -16px;
 }
 
-/* The actual content */
+// The actual content
 .content {
   padding: 20px 30px;
   background-color: #42b983;
@@ -142,21 +170,21 @@
   border-radius: 6px;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
+// Media queries - Responsive timeline on screens less than 600px wide
 @media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
+  // Place the timelime to the left
   .timeline::after {
   left: 31px;
   }
 
-  /* Full-width containers */
+  // Full-width containers
   .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
 
-  /* Make sure that all arrows are pointing leftwards */
+  // Make sure that all arrows are pointing leftwards
   .container::before {
   left: 60px;
   border: medium solid #42b983;
@@ -164,12 +192,12 @@
   border-color: transparent #42b983 transparent transparent;
   }
 
-  /* Make sure all circles are at the same spot */
+  // Make sure all circles are at the same spot
   .left::after, .right::after {
   left: 15px;
   }
 
-  /* Make all right containers behave like the left ones */
+  // Make all right containers behave like the left ones
   .right {
   left: 0%;
   }
